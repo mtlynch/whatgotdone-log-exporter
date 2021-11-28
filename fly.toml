@@ -1,5 +1,8 @@
-app = "fly-log-shipper-example"
+app = "whatgotdone-log-exporter"
 
 [metrics]
-  port = 9598
   path = "/metrics"
+  port = 9598
+
+[env]
+  ORG = "personal"
